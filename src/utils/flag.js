@@ -5,7 +5,7 @@ export const Flags = {
   score: new Rox.Flag(false),
   ask: new Rox.Flag(false),
   show: new Rox.Flag(false),
-  headerColor: new Rox.Variant('is-dark', ['is-dark', 'is-primary', 'is-white'])
+  headerColor: new Rox.RoxString('is-dark', ['is-dark', 'is-primary', 'is-white'])
 }
 
 export const configurationFetchedHandler = fetcherResults => {
